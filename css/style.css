@@ -79,3 +79,21 @@
 .hero-section p {
     font-size: 1.2rem;
 }
+
+
+
+
+/* Fooeter */
+
+.footer {
+
+}
+
+.footer .nav a {
+    font-size: 1rem;
+    color: black;
+}
+
+.footer a {
+    padding-left: 10px;
+}
