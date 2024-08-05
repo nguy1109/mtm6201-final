@@ -1,7 +1,9 @@
 
 
 
-
+.navbar-brand {
+    color: #630404;
+}
 
 .navbar {
     background-color: #fff;
@@ -17,7 +19,7 @@
     color: white;
     font-size: 14px;
     padding: 8px 20px;
-    border-radius: 50px;
+    border-radius: 16px;
     text-decoration: none;
     transition: 0.3s background-color;
 }
@@ -57,5 +59,23 @@
     background: url(../images/hero-bg.JPG);
     background-size: cover;
     width: 100%;
+}
+
+
+.hero-section .container {
     height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.d-flex {
+    height: 100vh;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
 }
