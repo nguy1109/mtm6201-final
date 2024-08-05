@@ -52,8 +52,7 @@
 
 
 
-
-
+/* hero */
 
 .hero-section {
     background: url(../images/hero-bg.JPG);
@@ -80,6 +79,15 @@
     font-size: 1.2rem;
 }
 
+.call-to-action {
+    background-color: #ffffff;
+    color: #black;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
 
 
@@ -89,11 +97,12 @@
 
 }
 
-.footer .nav a {
+.footer a {
     font-size: 1rem;
     color: black;
+    padding-left: 10px;
 }
 
-.footer a {
-    padding-left: 10px;
+i:hover {
+    background-color: #955e5e;
 }
