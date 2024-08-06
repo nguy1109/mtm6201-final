@@ -93,6 +93,10 @@
 
 /* main */
 
+.cards {
+    background-color: #630404;
+}
+
 .card-button {
     background-color: #630404;
     color: white;
