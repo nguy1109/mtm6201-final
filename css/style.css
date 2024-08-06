@@ -119,7 +119,13 @@
     background-color: #955e5e;
 }
 
-/* about */
+/* about me */
+/* about sevices */
+.services-box {
+    padding: 40px;
+    border: 5px solid var(--dark-color);
+    display: flex;
+}
 
 
 /* Fooeter */
