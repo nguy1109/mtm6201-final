@@ -1,6 +1,6 @@
 
 .navbar-brand {
-    font-family: 'giliran', serif;
+    font-family: 'Roboto', serif;
 }
 
 .navbar-brand {
@@ -91,7 +91,21 @@
     transition: 0.3s;
 }
 
+/* main */
 
+.card-button {
+    background-color: #630404;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.card-button:hover {
+    background-color: #955e5e;
+}
 
 /* Fooeter */
 
