@@ -91,10 +91,18 @@
     transition: 0.3s;
 }
 
-/* main */
+/* mission */
+.mission-content {
+    padding: 50px;
+}
+/* cards */
 
 .cards {
     background-color: #630404;
+}
+
+.card {
+    padding: 10px;
 }
 
 .card-button {
