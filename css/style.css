@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', serif;
+    font-size: 12px;
 }
 .navbar-brand {
     font-family: 'Roboto', serif;
@@ -131,6 +132,13 @@ body {
 .icon {
     color: #630404;
 }
+
+/* Contact */
+.contact-form {
+    border: 2px solid #630404;
+    padding: 40px ;
+}
+
 
 
 /* Fooeter */
