@@ -1,17 +1,16 @@
 body {
     font-family: 'Roboto', serif;
     font-size: 12px;
+    margin: 0;
+    padding: 0;
 }
 .navbar-brand {
     font-family: 'Roboto', serif;
-}
-
-.navbar-brand {
-    color: #630404;
+    color: var(--primary-color, #630404);
 }
 
 .navbar {
-    background-color: #fff;
+    background-color: var(--navbar-bg-color, #fff);
     height: 80px;
     margin: 20px;
     border-radius: 16px;
@@ -26,7 +25,7 @@ body {
     padding: 8px 20px;
     border-radius: 16px;
     text-decoration: none;
-    transition: 0.3s background-co2lor;
+    transition: 0.3s background-color;
 }
 
 .login-button:hover {
@@ -50,7 +49,7 @@ body {
 }
 
 .nav-link {
-    color: #630404 ;
+    color: var(--primary-color, #630404) ;
     font-weight: 500;
 }
 
@@ -60,7 +59,7 @@ body {
 /* hero */
 
 .hero-section {
-    background: url(../images/hero-bg.JPG);
+    background: url(../images/hero-bg.JPG) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
@@ -94,6 +93,8 @@ body {
     transition: 0.3s;
 }
 
+
+
 /* mission */
 .mission-content {
     padding: 50px;
@@ -101,7 +102,7 @@ body {
 /* cards */
 
 .cards {
-    background-color: #630404;
+    background-color: var(--primary-color, #630404);
 }
 
 .card {
@@ -109,7 +110,7 @@ body {
 }
 
 .card-button {
-    background-color: #630404;
+    background-color: var(--primary-color, #630404);
     color: white;
     font-size: 14px;
     padding: 8px 20px;
@@ -130,12 +131,12 @@ body {
 }
 
 .icon {
-    color: #630404;
+    color: var(--primary-color, #630404);
 }
 
 /* Contact */
 .contact-form {
-    border: 2px solid #630404;
+    border: 2px solid var(--primary-color, #630404);
     padding: 40px ;
 }
 
@@ -151,8 +152,30 @@ body {
     font-size: 1rem;
     color: black;
     padding-left: 10px;
+    transition: color 0.3s;
 }
 
 i:hover {
     background-color: #955e5e;
+}
+
+/* Media Queries */
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {
+    
 }
