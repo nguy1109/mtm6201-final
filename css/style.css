@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Roboto', serif;
+}
 .navbar-brand {
     font-family: 'Roboto', serif;
 }
